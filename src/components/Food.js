@@ -17,8 +17,8 @@ img {
 
 const Food = ({ startingWeight, currentWeight, food = 'burger' }) => ( // eslint-disable-line
   <FoodContainer>
-    {times((Math.floor(startingWeight - currentWeight) / 2), () => (<img src={`/food/${food}.svg`} alt="burger" key={Math.random()} className="disabled" />))}
-    {times(Math.floor(currentWeight / 2), () => (<img src={`/food/${food}.svg`} alt="burger" key={Math.random()} />))}
+    {times((Math.floor(startingWeight - currentWeight) / 2), () => (<img src={`food/${food}.svg`} alt="burger" key={Math.random()} className="disabled" />))}
+    {times(Math.floor(currentWeight / 2), () => (<img src={`food/${food}.svg`} alt="burger" key={Math.random()} />))}
 
   </FoodContainer>
 );

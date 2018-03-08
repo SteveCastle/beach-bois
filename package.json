@@ -2,6 +2,7 @@
   "name": "beach-bois",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://sunkware.com/beachbois",
   "dependencies": {
     "prop-types": "^15.6.1",
     "react": "^16.2.0",

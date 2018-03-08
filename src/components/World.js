@@ -5,7 +5,7 @@ import styled from 'styled-components';
 const Background = styled.div`
 height: 800px;
 position:fixed;
-background-image: url('/backgrounds/${props => props.background}.svg');
+background-image: url('backgrounds/${props => props.background}.svg');
 background-size: 100%;
 background-repeat: no-repeat;
 display: flex;

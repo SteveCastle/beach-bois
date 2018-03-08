@@ -10,7 +10,7 @@ const Avatar = styled.div`
 
 const Character = ({ character }) => ( //eslint-disable-line
   <Avatar>
-    <img src={`/characters/${character}.svg`} alt={character} />
+    <img src={`characters/${character}.svg`} alt={character} />
   </Avatar>
 );
 
