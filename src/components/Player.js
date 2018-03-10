@@ -8,14 +8,11 @@ import Label from './Label';
 
 const StyledPlayer = styled.div`
 display: flex;
-width: 300px;
 height: 100%;
 justify-content: flex-end;
 flex-direction: column;
 align-items: flex-end;
-margin-bottom: 20px;
-flex-wrap: wrap;
-padding: 30px;
+padding: 0 30px;
 `;
 
 const StyledCharacter = styled.div`

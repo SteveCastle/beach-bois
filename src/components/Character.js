@@ -3,9 +3,13 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const Avatar = styled.div`
-  height: 60px;
-  width: 60px;
+  height: 100px;
+  width: 100px;
   margin-bottom: 40px;
+
+  img {
+    height: 100%;
+  }
 `;
 
 const Character = ({ character }) => ( //eslint-disable-line

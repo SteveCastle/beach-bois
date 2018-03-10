@@ -4,11 +4,11 @@ import styled from 'styled-components';
 import { times } from 'underscore';
 
 const FoodContainer = styled.div`
-width: 60px;
+width: 80px;
 align-items: flex-end;
 img {
-  height: 15px;
-  width: 15px;
+  height: 20px;
+  width: 20px;
 }
 .disabled {
   opacity: .3;
@@ -17,7 +17,8 @@ img {
 
 const Food = ({ startingWeight, currentWeight, food = 'burger' }) => ( // eslint-disable-line
   <FoodContainer>
-    {times((Math.floor(startingWeight - currentWeight) / 2), () => (<img src={`food/${food}.svg`} alt="burger" key={Math.random()} className="disabled" />))}
+    {times(Math.floor((startingWeight - currentWeight) / 2), () =>
+      (<img src="items/star.svg" alt="star" key={Math.random()} />))}
     {times(Math.floor(currentWeight / 2), () => (<img src={`food/${food}.svg`} alt="burger" key={Math.random()} />))}
 
   </FoodContainer>

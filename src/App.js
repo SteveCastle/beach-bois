@@ -5,7 +5,7 @@ import './App.css';
 
 const App = () => (
   <div className="App">
-    <World background="day">
+    <World background="garden.gif">
       <Player
         name="corey"
         startingWeight={208}
@@ -22,7 +22,7 @@ const App = () => (
       <Player
         name="robert"
         startingWeight={200}
-        currentWeight={80}
+        currentWeight={200}
         character="wizard"
         food="pizza"
       />
@@ -36,7 +36,7 @@ const App = () => (
       <Player
         name="stephen"
         startingWeight={233}
-        currentWeight={233}
+        currentWeight={226}
         character="gator"
         food="donut"
       />

@@ -6,6 +6,10 @@ const StyledLabel = styled.div`
   width: 100%;
   color: white;
   font-size: 1.2rem;
+  margin: 20px 0 20px 0;
+  background: black;
+  padding: 8px;
+  border-radius: 4px;
 `;
 
 const Name = styled.span`
