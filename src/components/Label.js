@@ -14,19 +14,17 @@ const StyledLabel = styled.div`
 
 const Name = styled.span`
   display: block;
-
 `;
 
 const StartingWeight = styled.span`
-    display: block;
-    font-size: 0.6rem;
+  display: block;
+  font-size: 0.6rem;
 `;
 
 const CurrentWeight = styled.span`
-    display: block;
-    font-size: 0.6rem;
+  display: block;
+  font-size: 0.6rem;
 `;
-
 
 const Label = ({ name, startingWeight, currentWeight }) => ( //eslint-disable-line
   <StyledLabel>
