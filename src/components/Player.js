@@ -5,14 +5,13 @@ import Food from './Food';
 import Character from './Character';
 import Label from './Label';
 
-
 const StyledPlayer = styled.div`
-display: flex;
-height: 100%;
-justify-content: flex-end;
-flex-direction: column;
-align-items: flex-end;
-padding: 0 30px;
+  display: flex;
+  height: 100%;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 30px;
 `;
 
 const StyledCharacter = styled.div`
@@ -21,7 +20,6 @@ const StyledCharacter = styled.div`
   justify-content: flex-start;
   align-items: flex-end;
 `;
-
 
 const Player = ({
   name,

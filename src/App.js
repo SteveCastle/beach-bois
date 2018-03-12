@@ -22,7 +22,7 @@ const App = () => (
       <Player
         name="robert"
         startingWeight={200}
-        currentWeight={200}
+        currentWeight={42}
         character="wizard"
         food="pizza"
       />
