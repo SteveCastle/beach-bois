@@ -5,23 +5,23 @@ import './App.css';
 
 const App = () => (
   <div className="App">
-    <World background="garden.gif">
+    <World background="mountains.png">
       <Player
         name="corey"
         startingWeight={208}
-        currentWeight={208}
+        currentWeight={201}
         character="astronaut"
         food="icecream"
       />
       <Player
         name="richard"
         startingWeight={224}
-        currentWeight={224}
+        currentWeight={226}
         character="scientist"
       />
       <Player
         name="robert"
-        startingWeight={200}
+        startingWeight={208}
         currentWeight={200}
         character="wizard"
         food="pizza"
@@ -29,14 +29,14 @@ const App = () => (
       <Player
         name="trip"
         startingWeight={253}
-        currentWeight={253}
+        currentWeight={251}
         character="banana"
         food="chicken"
       />
       <Player
         name="stephen"
         startingWeight={233}
-        currentWeight={226}
+        currentWeight={227}
         character="gator"
         food="donut"
       />
